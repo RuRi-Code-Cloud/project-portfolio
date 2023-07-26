@@ -1,0 +1,35 @@
+body {
+  font-family: "Quicksand";
+  background-image: url(https://i.pinimg.com/564x/dd/bd/4d/ddbd4df54946f8fe26ac67f310c7ee73.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+  color: #7594c8;
+}
+.bg-dark {
+  background-color: #7593c89e !important;
+}
+.box {
+  background-color: rgba(255, 255, 255, 0.431);
+  border-radius: 50px;
+  margin: 50px;
+
+  padding: 20px;
+}
+.first-picture {
+  border-radius: 30px;
+}
+.first-text {
+  font-size: 30px;
+}
+.small-box {
+  margin: 10px;
+  padding: 60px 10px;
+  background-color: #7593c8b0;
+  text-align: center;
+  color: white;
+  max-width: 200px;
+  border-radius: 50px;
+  font-size: 40px;
+}
