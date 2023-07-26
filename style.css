@@ -1,11 +1,14 @@
 body {
-  font-family: "Quicksand";
+  font-family: "Amita";
   background-image: url(https://i.pinimg.com/564x/dd/bd/4d/ddbd4df54946f8fe26ac67f310c7ee73.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
   height: 100vh;
   color: #7594c8;
+}
+li {
+  padding: 10px 0px;
 }
 .bg-dark {
   background-color: #7593c89e !important;
@@ -14,22 +17,58 @@ body {
   background-color: rgba(255, 255, 255, 0.431);
   border-radius: 50px;
   margin: 50px;
-
   padding: 20px;
 }
-.first-picture {
+.first-picture,
+.second-picture {
   border-radius: 30px;
+  border: 1px solid #7594c8;
+  border-radius: 50px;
 }
 .first-text {
-  font-size: 30px;
+  font-size: 40px;
+  text-align: center;
 }
 .small-box {
   margin: 10px;
   padding: 60px 10px;
-  background-color: #7593c8b0;
+  background-color: #7593c887;
   text-align: center;
   color: white;
-  max-width: 200px;
+
   border-radius: 50px;
   font-size: 40px;
+}
+.three-boxes {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #7594c8;
+  border-radius: 50px;
+  margin: 70px 0px;
+  padding: 30px 0px;
+}
+.list {
+  list-style: none;
+  font-size: 50px;
+  padding-top: 30px;
+}
+.fooret {
+  margin-bottom: 50px;
+}
+.follow-me {
+  border: 1px solid white;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 50px;
+}
+.second-picture {
+  position: relative;
+  left: 60px;
+}
+h3 {
+  font-size: 35px;
+}
+.first-picture {
+  margin-left: 80px;
 }
