@@ -1,20 +1,29 @@
+:root {
+  --primary-color: #7594c8;
+  --secondary-color: rgba(255, 255, 255, 0.775);
+  --primary-background-color: rgba(255, 255, 255, 0.431);
+  --secondary-background-color: #7593c89e;
+}
+.bg-dark {
+  background-color: var(--secondary-background-color) !important;
+}
 body {
   font-family: "Amita";
   background-image: url(https://i.pinimg.com/564x/dd/bd/4d/ddbd4df54946f8fe26ac67f310c7ee73.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
   height: 100vh;
-  color: #7594c8;
+  color: var(--primary-color);
+}
+h3 {
+  font-size: 35px;
+  text-align: center;
 }
 li {
   padding: 10px 0px;
 }
-.bg-dark {
-  background-color: #7593c89e !important;
-}
 .box {
-  background-color: rgba(255, 255, 255, 0.431);
+  background-color: var(--primary-background-color);
   border-radius: 50px;
   margin: 50px;
   padding: 20px;
@@ -22,43 +31,52 @@ li {
 .first-picture,
 .second-picture {
   border-radius: 30px;
-  border: 1px solid #7594c8;
+  border: 1px solid var(--primary-color);
   border-radius: 50px;
 }
+
 .first-text {
   font-size: 40px;
   text-align: center;
 }
 .small-box {
   margin: 10px;
-  padding: 60px 10px;
-  background-color: #7593c887;
+  width: 200px;
+  padding: 20px 0px;
+  background-color: var(--secondary-background-color);
   text-align: center;
-  color: white;
-
+  color: var(--secondary-color);
   border-radius: 50px;
   font-size: 40px;
+  position: relative;
+  left: 10%;
 }
-.three-boxes {
-  display: flex;
-  flex-direction: row;
-  border: 1px solid #7594c8;
-  border-radius: 50px;
-  margin: 70px 0px;
-  padding: 30px 0px;
+:hover.small-box {
+  opacity: 0.7;
 }
+
 .list {
   list-style: none;
-  font-size: 50px;
+  font-size: 40px;
   padding-top: 30px;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-color);
+  border-radius: 50px;
+  position: relative;
+  left: 30px;
+  margin-right: 60px;
 }
-.fooret {
+.footer {
   margin-bottom: 50px;
 }
+.footer-first {
+  margin-top: 60px;
+}
 .follow-me {
-  border: 1px solid white;
+  border: 1px solid var(--secondary-color);
   padding: 30px;
   margin: 20px;
+
   text-align: center;
   border-radius: 50px;
 }
@@ -66,9 +84,32 @@ li {
   position: relative;
   left: 60px;
 }
-h3 {
-  font-size: 35px;
-}
 .first-picture {
   margin-left: 80px;
+}
+.three-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+  margin: 80px;
+  padding: 30px;
+}
+.coding-info {
+  font-size: 25px;
+}
+.project-image {
+  background-color: var(--secondary-background-color);
+  padding-top: 10px;
+  border-radius: 50px;
+}
+
+.project-list {
+  list-style: none;
+}
+.project-text {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
 }
