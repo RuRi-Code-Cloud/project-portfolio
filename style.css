@@ -228,12 +228,18 @@ a {
   .first-picture {
     width: 300px;
     margin: 0px;
+    position: relative;
+    left: 5%;
   }
   .three-boxes {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0px;
+    margin-top: 50px;
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .favorite {
+    position: relative;
+    left: 3%;
   }
   .social {
     font-size: 25px;
@@ -248,21 +254,19 @@ a {
     position: relative;
     left: -5%;
   }
-  .footer {
-    padding: 0px;
-  }
-  .favorite {
-    position: relative;
-    right: 10px;
+  .follow-me {
+    margin: 0px;
+    border: none;
   }
   .footer {
     position: relative;
     left: 15px;
+    padding: 0px;
   }
   .line img {
     width: 280px;
     position: relative;
-    left: 6%;
+    left: 10%;
   }
   .line {
     padding: 0px;
@@ -272,12 +276,12 @@ a {
   }
   .stories {
     position: relative;
-    left: 25%;
+    left: 30%;
     margin: 0px;
   }
   .footer-img {
     position: relative;
-    left: 3%;
+    left: 8%;
     margin-top: 30px;
     width: 300px;
   }
@@ -290,7 +294,7 @@ a {
   }
   .try-out {
     position: relative;
-    left: 10%;
+    left: 15%;
   }
   .coding-class {
     text-align: center;
@@ -298,7 +302,7 @@ a {
   }
   .third-picture {
     margin-bottom: 50px;
-    margin-left: 10px;
+    margin-left: 35px;
     width: 200px;
   }
   .top-space {
@@ -314,6 +318,9 @@ a {
     font-size: 25px;
   }
   .list-tools {
+    margin: 0px;
+  }
+  .footer-first {
     margin: 0px;
   }
 }
