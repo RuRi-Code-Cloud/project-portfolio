@@ -212,12 +212,6 @@ a {
   left: 60px;
 }
 @media (max-width: 900px) {
-  .first-text {
-    font-size: 30px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
   body {
     height: 150%;
   }
@@ -227,42 +221,99 @@ a {
   h4 {
     margin-bottom: 50px;
   }
+  .first-text {
+    font-size: 25px;
+    padding-bottom: 50px;
+  }
+  .first-picture {
+    width: 300px;
+    margin: 0px;
+  }
+  .three-boxes {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .social {
+    font-size: 25px;
+  }
+  .social img {
+    width: 50px;
+  }
+  .list {
+    padding: 0px;
+    padding-top: 20px;
+    margin: 0px;
+    position: relative;
+    left: -5%;
+  }
+  .footer {
+    padding: 0px;
+  }
   .favorite {
     position: relative;
     right: 10px;
-  }
-  .follow-back {
-    color: var(--secondary-color);
   }
   .footer {
     position: relative;
     left: 15px;
   }
+  .line img {
+    width: 280px;
+    position: relative;
+    left: 6%;
+  }
+  .line {
+    padding: 0px;
+  }
+  .plus-img {
+    margin-left: 10px;
+  }
   .stories {
     position: relative;
     left: 25%;
+    margin: 0px;
   }
   .footer-img {
     position: relative;
-    left: 80px;
+    left: 3%;
     margin-top: 30px;
+    width: 300px;
   }
   .check-out {
     color: var(--secondary-color);
+    font-size: 25px;
   }
   .package img {
-    width: 300px;
+    width: 200px;
   }
   .try-out {
     position: relative;
-    left: 25%;
+    left: 10%;
   }
   .coding-class {
     text-align: center;
+    font-size: 20px;
   }
   .third-picture {
     margin-bottom: 50px;
-    position: relative;
-    left: 13%;
+    margin-left: 10px;
+    width: 200px;
+  }
+  .top-space {
+    margin-top: 0px;
+  }
+  .box {
+    margin-top: 10px;
+  }
+  .tools li {
+    padding: 10px 0px;
+  }
+  .challenge {
+    font-size: 25px;
+  }
+  .list-tools {
+    margin: 0px;
   }
 }
