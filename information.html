@@ -20,39 +20,100 @@
       href="https://fonts.googleapis.com/css2?family=Amita:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Learn more</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand fs-3 fst-italic text-white" href="#">Rita R.</a>
+    <div class="container d-flex flex-column flex-md-row ms-0 ps-0">
+      <nav class="navbar navbar-expand-md navbar-dark d-flex flex-md-column">
+        <a href="#">
+          <img src="pic/logo.png" alt="logo" width="60px" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-target="#navbarSupportContent"
+          aria-controls="navbarSupportContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link text-white" href="index.html">Home</a>
-
-            <a class="nav-link text-white" href="projects.html">Projects</a>
-            <a
-              class="nav-link active text-white"
-              aria-current="page"
-              href="information.html"
-              >Learn more</a
-            >
-          </div>
+        <div class="collapse navbar-collapse w-100" id="navbarSupportContent">
+          <ul
+            class="navbar-nav w-100 d-flex flex-md-column text-center text-md-end"
+          >
+            <li class="pop">
+              <a href="/" class="nav-link" aria-current="page">
+                <img
+                  src="pic/home.png"
+                  width="30px"
+                  alt="homepage"
+                  class="pages"
+                />
+                <div class="li-display">Home</div>
+              </a>
+            </li>
+            <li class="pop">
+              <a href="/about.html" class="nav-link">
+                <img
+                  src="pic/person.png"
+                  width="30px"
+                  alt="aboutpage"
+                  class="pages"
+                />
+                <div class="li-display">About</div>
+              </a>
+            </li>
+            <li class="pop">
+              <a href="/projects.html" class="nav-link">
+                <img
+                  src="pic/code-1.png"
+                  width="30px"
+                  alt="projectpage"
+                  class="pages"
+                />
+                <div class="li-display">Projects</div>
+              </a>
+            </li>
+            <li class="pop">
+              <a href="/information.html" class="nav-link active">
+                <img
+                  src="pic/mail-1.png"
+                  width="30px"
+                  alt="contactpage"
+                  class="pages"
+                />
+                <div class="li-display">Contact</div>
+              </a>
+            </li>
+            <li class="pop">
+              <a href="/hobbies.html" class="nav-link">
+                <img
+                  src="pic/paint-6.png"
+                  width="30px"
+                  alt="hobbypage"
+                  class="pages"
+                />
+                <div class="li-display">Hobbies</div>
+              </a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </body>
 </html>
