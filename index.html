@@ -7,6 +7,7 @@
       name="description"
       content="2023 Portfolio by student Rita R. favorite project and more"
     />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,183 +22,83 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Amita:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Yeseva+One:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio by Rita R. responsive</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand fs-3 fst-italic text-white" href="#">Rita R.</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link active text-white"
-                aria-current="page"
-                href="/index.html"
-                >Home</a
-              >
-            </li>
+    <div class="container d-flex flex-column flex-md-row">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark d-flex flex-md-column sticky-top bg-dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand fs-3" href="#"
+            ><img src="pic/logo.png" width="50px" alt="logo" class="logo-pic"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse w-100" id="navbarNav">
+            <ul
+              class="navbar-nav w-100 d-flex flex-md-column text-center text-md-end"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="/index.html"
+                  ><img src="pic/home.png" width="25px" alt="" />
+                  <div class="li-display">Home</div></a
+                >
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/information.html"
-                >Learn more</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="box">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-lg-6 first-text">
-            Hello. <br />
-            My name is Rita Rudzite I am front-end developer, I come from
-            Latvia, currently located in Ireland and welcome my Portfolio
-            project.
-          </div>
-          <div class="col-sm-12 col-lg-6">
-            <a
-              href="https://www.pinterest.com/pin/354658539416450799/"
-              target="_blank"
-              title="pinterest picture"
-            >
-              <img
-                src="https://i.pinimg.com/564x/c6/8e/02/c68e02b66b697b0b327ec4987616e4fc.jpg"
-                alt="girl working"
-                width="350px"
-                class="first-picture"
-            /></a>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row three-boxes">
-          <h3>Favorite projects</h3>
-          <div class="col-sm-12 col-lg-4 favorite">
-            <a
-              class="text-decoration-none"
-              href="https://rad-meerkat-71d420.netlify.app/"
-              target="_blank"
-              title="Hobby app"
-              ><div class="small-box">
-                <img src="pic/hobby.png" alt="hobby image" width="100px" />
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-12 col-lg-4 favorite">
-            <a
-              class="text-decoration-none"
-              href="https://guileless-semifreddo-d0d7a3.netlify.app/"
-              target="_blank"
-              title="Weather app"
-            >
-              <div class="small-box">
-                <img src="pic/weather.png" alt="weather image" width="100px" />
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-12 col-lg-4 favorite">
-            <a
-              class="text-decoration-none"
-              href="https://fluffy-pasca-83cbab.netlify.app/"
-              target="_blank"
-              title="Clock app"
-            >
-              <div class="small-box">
-                <img src="pic/clock.png" alt="clock image" width="100px" />
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="follow-me">
-        <h3 class="follow-back">
-          You can follow me on socials bellow for future projects
-        </h3>
-      </div>
-      <div class="container footer-first">
-        <div class="row">
-          <div class="col-lg-6 d-none d-lg-block">
-            <a
-              href="https://www.pinterest.com/pin/712202128594939734/"
-              target="_blank"
-              title="pinterest second picture"
-            >
-              <img
-                src="https://i.pinimg.com/564x/95/f1/24/95f124da44275b576177962d3ea249cc.jpg"
-                alt="happy girl"
-                width="465px"
-                class="second-picture"
-            /></a>
-          </div>
-          <div class="col-sm-12 col-lg-6 footer">
-            <ul class="list">
-              <li class="social github">
-                <a
-                  href="https://github.com/RuRi-Code-Cloud/project-portfolio"
-                  title="github link"
-                  target="_blank"
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/projects.html"
+                  ><img src="pic/person.png" width="25px" alt="" />
+                  <div class="li-display">About</div></a
                 >
-                  <img src="pic/github.svg.png" width="85px" alt="github"
-                /></a>
-                GitHub
               </li>
-              <li class="social">
-                <a
-                  href="mailto:rudziter367@gmail.com"
-                  title="mail link"
-                  target="_blank"
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/information.html"
+                  ><img src="pic/code-1.png" width="25px" alt="" />
+                  <div class="li-display">Projects</div></a
                 >
-                  <img src="pic/mail.png" width="90px" alt="email"
-                /></a>
-                Email
               </li>
-              <li class="social">
-                <a
-                  href="https://www.linkedin.com/in/rita-rudzite-6440a0271/"
-                  title="linked link"
-                  target="_blank"
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/"
+                  ><img src="pic/mail-1.png" width="24px" alt="" />
+                  <div class="li-display">Contact</div></a
                 >
-                  <img src="pic/linked.png" width="90px" alt="linked"
-                /></a>
-                Linked
               </li>
-              <li class="social">
-                <a
-                  href="https://www.instagram.com/"
-                  title="instagram link"
-                  target="_blank"
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/"
+                  ><img src="pic/paint-6.png" width="25px" alt="" />
+                  <div class="li-display">Hobbies</div></a
                 >
-                  <img src="pic/inst.png" width="90px" alt="instagram"
-                /></a>
-                Instagram
               </li>
             </ul>
           </div>
         </div>
-      </div>
+      </nav>
     </div>
-    <br />
+    <div class="container">
+      <img
+        src="pic/girl.jpeg"
+        alt="photo of a girl"
+        width="400px"
+        class="portfolio-picture"
+      />
+    </div>
   </body>
 </html>
