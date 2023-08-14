@@ -3,7 +3,9 @@ body {
   color: var(--secondary-color);
   font-family: "Abril Fatface", cursive;
 }
-
+li {
+  list-style: none;
+}
 :root {
   --primary-color: #0d0f1187;
   --secondary-color: rgba(255, 255, 255, 0.775);
@@ -59,17 +61,16 @@ li :hover {
   border: 0.5px solid white;
   border-radius: 5%;
 }
+li.contacting :hover {
+  border: 0px;
+}
 a :hover {
   border: none;
 }
 .li-display {
   display: none;
 }
-@media (max-width: 992px) {
-  .li-display {
-    display: block;
-  }
-}
+
 .pages {
   position: relative;
   right: 6px;
@@ -80,11 +81,7 @@ a :hover {
   position: relative;
   top: 50px;
 }
-.me-one {
-  border-left: 1px solid white;
-  padding-left: 100px;
-  height: 100vh;
-}
+
 .projects {
   display: flex;
   position: relative;
@@ -103,4 +100,94 @@ a :hover {
   transition: 0.6s;
   filter: unset;
   object-fit: contain;
+}
+
+.contacting {
+  width: 300px;
+  text-align: center;
+  margin: 15px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.heading-contact {
+  position: relative;
+  left: 445px;
+}
+.contacting-list {
+  position: relative;
+  top: 100px;
+  left: 140px;
+}
+.art-info {
+  font-size: 30px;
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+.art-image-one {
+  position: relative;
+  top: 200px;
+}
+.me-info {
+  margin: 20px;
+  line-height: 60px;
+}
+@media (max-width: 500px) {
+  .li-display {
+    display: block;
+  }
+  .avatar {
+    position: relative;
+    left: 8%;
+    top: 10%;
+    margin-top: 40px;
+  }
+  .portfolio {
+    position: relative;
+    right: 5%;
+  }
+  .me-info {
+    position: relative;
+    top: 100px;
+    left: 50px;
+    max-width: 400px;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+  .my-project {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .bright {
+    width: 300px;
+  }
+  .space {
+    padding-top: 0px !important;
+  }
+  h1.heading-contact {
+    position: relative;
+    left: 35%;
+  }
+  ul.contacting-list {
+    position: relative;
+    left: 10%;
+  }
+  h1.art-info {
+    max-width: 350px;
+    text-align: end;
+  }
+  img.art-image-one {
+    position: relative;
+    left: 100px;
+  }
+  img.art-image-two {
+    position: relative;
+    top: 200px;
+    left: 100px;
+
+    padding-bottom: 30px;
+  }
 }
