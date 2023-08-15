@@ -156,6 +156,7 @@ a :hover {
   .projects {
     display: flex;
     flex-direction: column;
+    max-width: 350px;
   }
   .my-project {
     margin-top: 30px;
@@ -170,10 +171,12 @@ a :hover {
   h1.heading-contact {
     position: relative;
     left: 35%;
+    max-width: 250px;
   }
   ul.contacting-list {
     position: relative;
     left: 10%;
+    max-width: 300px;
   }
   h1.art-info {
     max-width: 350px;
@@ -189,5 +192,9 @@ a :hover {
     left: 100px;
 
     padding-bottom: 30px;
+  }
+  li.contacting {
+    margin: 0px;
+    margin-right: 0px;
   }
 }
