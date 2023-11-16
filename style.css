@@ -1,7 +1,8 @@
 body {
-  background-image: url(background.jpg);
-  background-repeat: no-repeat;
+  background: url(background.jpg) no-repeat center center;
   background-size: cover;
+  height: 100%;
+  margin: 0 auto;
   color: var(--secondary-color);
   font-family: "Abril Fatface", cursive;
   overflow-x: hidden;
@@ -9,23 +10,48 @@ body {
 li {
   list-style: none;
 }
+footer {
+  padding-top: 50px;
+}
+a {
+  color: rgb(153, 137, 106);
+  text-decoration: none;
+}
+section {
+  position: relative;
+}
+
+section img {
+  position: absolute;
+}
+.top {
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 :root {
   --primary-color: #0d0f1187;
   --secondary-color: rgba(255, 255, 255, 0.775);
   --primary-background-color: rgba(255, 255, 255, 0.431);
   --secondary-background-color: #00000034;
 }
-.navbar {
-  padding: 5px;
-}
-.active {
-  border-bottom: 1px solid white;
-}
-.navbar-nav li {
-  padding-top: 10px;
-  padding-bottom: 5px;
-}
-
 @keyframes float {
   0% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
@@ -59,25 +85,6 @@ li {
     height: auto;
   }
 }
-
-li :hover {
-  border: 0.5px solid white;
-  border-radius: 5%;
-}
-li.contacting :hover {
-  border: 0px;
-}
-a :hover {
-  border: none;
-}
-.li-display {
-  display: none;
-}
-
-.pages {
-  position: relative;
-  right: 6px;
-}
 .portfolio {
   font-size: 60px;
   text-align: center;
@@ -88,8 +95,6 @@ a :hover {
 .projects {
   display: flex;
   position: relative;
-  top: 150px;
-  left: 70px;
 }
 .bright {
   filter: grayscale(100%);
@@ -127,6 +132,8 @@ h1.heading-contact {
   position: relative;
   top: 100px;
   left: 80px;
+  color: rgba(0, 0, 0, 0.574);
+  margin-right: 50px;
 }
 .art-image-one {
   position: relative;
